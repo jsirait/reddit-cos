@@ -1,0 +1,12 @@
+name,model_type,metric_type,metric_value,train_time
+1_Baseline,Baseline,logloss,0.6831303327275922,0.73
+2_DecisionTree,Decision Tree,logloss,3.808134179054909,3.34
+3_Linear,Linear,logloss,0.6387270180511175,5.57
+4_Default_LightGBM,LightGBM,logloss,0.6227506686876527,11.18
+5_Default_Xgboost,Xgboost,logloss,0.5775865746319464,8.09
+6_Default_CatBoost,CatBoost,logloss,0.6255712148646444,2.16
+7_Default_NeuralNetwork,Neural Network,logloss,1.297116038038213,2.12
+8_Default_RandomForest,Random Forest,logloss,0.6570933869341831,7.71
+9_Default_ExtraTrees,Extra Trees,logloss,0.5237104925527111,3.16
+10_Default_NearestNeighbors,Nearest Neighbors,logloss,2.572172893588867,1.72
+Ensemble,Ensemble,logloss,0.5106559526618043,1.19
