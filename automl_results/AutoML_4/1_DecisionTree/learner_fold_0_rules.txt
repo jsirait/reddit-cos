@@ -1,0 +1,16 @@
+if (x22 > 0.038) and (x8 <= 0.176) and (x21 > -0.514) then class: 1 (proba: 96.15%) | based on 26 samples
+
+if (x22 <= 0.038) and (x25 > -0.108) and (x21 > -0.141) then class: 0 (proba: 100.0%) | based on 15 samples
+
+if (x22 <= 0.038) and (x25 > -0.108) and (x21 <= -0.141) then class: 1 (proba: 57.14%) | based on 7 samples
+
+if (x22 <= 0.038) and (x25 <= -0.108) and (x8 <= 0.136) then class: 1 (proba: 100.0%) | based on 6 samples
+
+if (x22 > 0.038) and (x8 > 0.176) and (x3 <= 0.285) then class: 0 (proba: 100.0%) | based on 5 samples
+
+if (x22 > 0.038) and (x8 <= 0.176) and (x21 <= -0.514) then class: 1 (proba: 60.0%) | based on 5 samples
+
+if (x22 > 0.038) and (x8 > 0.176) and (x3 > 0.285) then class: 1 (proba: 100.0%) | based on 2 samples
+
+if (x22 <= 0.038) and (x25 <= -0.108) and (x8 > 0.136) then class: 0 (proba: 100.0%) | based on 1 samples
+

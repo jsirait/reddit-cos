@@ -1,0 +1,348 @@
+{
+    "uid": "0abdd0fd-ba8e-49b1-a575-42cb134c1286",
+    "name": "2_Linear",
+    "preprocessing": [
+        {
+            "scale": [
+                {
+                    "scale": [
+                        2.85710375365865,
+                        5.354661344752048,
+                        4.701258037579237,
+                        3.3979991227050674,
+                        3.692692581128304,
+                        3.780052166985522,
+                        1.7525676116428452,
+                        5.662473703417704,
+                        3.172935653675245,
+                        4.961712758313095,
+                        3.8170311393145497,
+                        4.178325783361372,
+                        3.3252857144852372,
+                        5.127935378539893,
+                        11.187243726060265,
+                        5.2077225847253015,
+                        3.0297421768559083,
+                        8.079958227221509,
+                        3.211228960819714,
+                        2.5576347306899896,
+                        7.73908363255872,
+                        2.180430339443456,
+                        3.4375076098521973,
+                        3.4788929753585,
+                        2.8282663846922462
+                    ],
+                    "mean": [
+                        -0.368125604685021,
+                        -1.0864183493954633,
+                        -1.0923632013459719,
+                        -0.1015090285323087,
+                        -0.0662366108980057,
+                        0.3512249178153056,
+                        0.2822341717340199,
+                        -1.8735003445005984,
+                        0.4898032026396254,
+                        -0.6901025303470055,
+                        1.1440126248208444,
+                        0.03591921139069187,
+                        -0.7387119796586685,
+                        1.747143216528285,
+                        -2.7897377203841907,
+                        1.2211762162559927,
+                        -0.26291489980382293,
+                        -2.1063453176536138,
+                        0.8294560515300465,
+                        0.39560980560459075,
+                        1.846258637798601,
+                        -0.28175545183105666,
+                        0.05475998073885368,
+                        0.45503960468135163,
+                        0.2592680959726425
+                    ],
+                    "var": [
+                        8.163041859170349,
+                        28.672398116981817,
+                        22.101827135903378,
+                        11.546398037904407,
+                        13.635978498720014,
+                        14.288794385131938,
+                        3.071493233379507,
+                        32.06360844189701,
+                        10.067520662363552,
+                        24.61859349600694,
+                        14.56972671849693,
+                        17.458406351902422,
+                        11.057525082959595,
+                        26.295721246481072,
+                        125.15442218627474,
+                        27.12037451945797,
+                        9.179337658219577,
+                        65.28572495364455,
+                        10.311991438807262,
+                        6.5414954156316565,
+                        59.89341547173828,
+                        4.754276465165504,
+                        11.816458567791766,
+                        12.102696333998715,
+                        7.999090742780148
+                    ],
+                    "n_samples_seen": 90,
+                    "n_features_in": 25,
+                    "columns": [
+                        "x1",
+                        "x2",
+                        "x3",
+                        "x4",
+                        "x5",
+                        "x6",
+                        "x7",
+                        "x8",
+                        "x9",
+                        "x10",
+                        "x11",
+                        "x12",
+                        "x13",
+                        "x14",
+                        "x15",
+                        "x16",
+                        "x17",
+                        "x18",
+                        "x19",
+                        "x20",
+                        "x21",
+                        "x22",
+                        "x23",
+                        "x24",
+                        "x25"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "x1": [
+                        "scale_normal"
+                    ],
+                    "x2": [
+                        "scale_normal"
+                    ],
+                    "x3": [
+                        "scale_normal"
+                    ],
+                    "x4": [
+                        "scale_normal"
+                    ],
+                    "x5": [
+                        "scale_normal"
+                    ],
+                    "x6": [
+                        "scale_normal"
+                    ],
+                    "x7": [
+                        "scale_normal"
+                    ],
+                    "x8": [
+                        "scale_normal"
+                    ],
+                    "x9": [
+                        "scale_normal"
+                    ],
+                    "x10": [
+                        "scale_normal"
+                    ],
+                    "x11": [
+                        "scale_normal"
+                    ],
+                    "x12": [
+                        "scale_normal"
+                    ],
+                    "x13": [
+                        "scale_normal"
+                    ],
+                    "x14": [
+                        "scale_normal"
+                    ],
+                    "x15": [
+                        "scale_normal"
+                    ],
+                    "x16": [
+                        "scale_normal"
+                    ],
+                    "x17": [
+                        "scale_normal"
+                    ],
+                    "x18": [
+                        "scale_normal"
+                    ],
+                    "x19": [
+                        "scale_normal"
+                    ],
+                    "x20": [
+                        "scale_normal"
+                    ],
+                    "x21": [
+                        "scale_normal"
+                    ],
+                    "x22": [
+                        "scale_normal"
+                    ],
+                    "x23": [
+                        "scale_normal"
+                    ],
+                    "x24": [
+                        "scale_normal"
+                    ],
+                    "x25": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.4.2",
+            "algorithm_name": "Logistic Regression",
+            "algorithm_short_name": "Linear",
+            "uid": "79f42f21-8fe8-4b3e-b610-1e355ecc10ac",
+            "params": {
+                "model_type": "Linear",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1235,
+                "explain_level": 2
+            },
+            "name": "learner_fold_0"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_steps": 1,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "x1": [
+                    "scale_normal"
+                ],
+                "x2": [
+                    "scale_normal"
+                ],
+                "x3": [
+                    "scale_normal"
+                ],
+                "x4": [
+                    "scale_normal"
+                ],
+                "x5": [
+                    "scale_normal"
+                ],
+                "x6": [
+                    "scale_normal"
+                ],
+                "x7": [
+                    "scale_normal"
+                ],
+                "x8": [
+                    "scale_normal"
+                ],
+                "x9": [
+                    "scale_normal"
+                ],
+                "x10": [
+                    "scale_normal"
+                ],
+                "x11": [
+                    "scale_normal"
+                ],
+                "x12": [
+                    "scale_normal"
+                ],
+                "x13": [
+                    "scale_normal"
+                ],
+                "x14": [
+                    "scale_normal"
+                ],
+                "x15": [
+                    "scale_normal"
+                ],
+                "x16": [
+                    "scale_normal"
+                ],
+                "x17": [
+                    "scale_normal"
+                ],
+                "x18": [
+                    "scale_normal"
+                ],
+                "x19": [
+                    "scale_normal"
+                ],
+                "x20": [
+                    "scale_normal"
+                ],
+                "x21": [
+                    "scale_normal"
+                ],
+                "x22": [
+                    "scale_normal"
+                ],
+                "x23": [
+                    "scale_normal"
+                ],
+                "x24": [
+                    "scale_normal"
+                ],
+                "x25": [
+                    "scale_normal"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude"
+            ],
+            "ml_task": "binary_classification"
+        },
+        "validation_strategy": {
+            "validation_type": "split",
+            "train_ratio": 0.75,
+            "shuffle": true,
+            "stratify": true,
+            "X_path": "AutoML_6/X.data",
+            "y_path": "AutoML_6/y.data",
+            "results_path": "AutoML_6"
+        },
+        "learner": {
+            "model_type": "Linear",
+            "ml_task": "binary_classification",
+            "n_jobs": -1,
+            "seed": 1235,
+            "explain_level": 2
+        },
+        "automl_random_state": 1234,
+        "ml_task": "binary_classification",
+        "explain_level": 2,
+        "name": "2_Linear",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original",
+        "max_time_for_learner": 60
+    },
+    "saved": [
+        "2_Linear/learner_fold_0.linear"
+    ],
+    "predictions_fname": "2_Linear/predictions_validation.csv",
+    "metric_name": "logloss",
+    "final_loss": "0.7597782596221109",
+    "train_time": 3.874069929122925,
+    "is_stacked": false,
+    "joblib_version": "1.4.0",
+    "threshold": 0.5734955708921824
+}

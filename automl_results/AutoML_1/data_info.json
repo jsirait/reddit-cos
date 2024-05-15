@@ -1,0 +1,114 @@
+{
+    "columns": [
+        "x1",
+        "x2",
+        "x3",
+        "x4",
+        "x5",
+        "x6",
+        "x7",
+        "x8",
+        "x9",
+        "x10",
+        "x11",
+        "x12",
+        "x13",
+        "x14",
+        "x15",
+        "x16",
+        "x17",
+        "x18",
+        "x19",
+        "x20",
+        "x21",
+        "x22",
+        "x23",
+        "x24",
+        "x25"
+    ],
+    "rows": 592,
+    "cols": 25,
+    "target_is_numeric": true,
+    "columns_info": {
+        "x1": [
+            "scale"
+        ],
+        "x2": [
+            "scale"
+        ],
+        "x3": [
+            "scale"
+        ],
+        "x4": [
+            "scale"
+        ],
+        "x5": [
+            "scale"
+        ],
+        "x6": [
+            "scale"
+        ],
+        "x7": [
+            "scale"
+        ],
+        "x8": [
+            "scale"
+        ],
+        "x9": [
+            "scale"
+        ],
+        "x10": [
+            "scale"
+        ],
+        "x11": [
+            "scale"
+        ],
+        "x12": [
+            "scale"
+        ],
+        "x13": [
+            "scale"
+        ],
+        "x14": [
+            "scale"
+        ],
+        "x15": [
+            "scale"
+        ],
+        "x16": [
+            "scale"
+        ],
+        "x17": [
+            "scale"
+        ],
+        "x18": [
+            "scale"
+        ],
+        "x19": [
+            "scale"
+        ],
+        "x20": [
+            "scale"
+        ],
+        "x21": [
+            "scale"
+        ],
+        "x22": [
+            "scale"
+        ],
+        "x23": [
+            "scale"
+        ],
+        "x24": [
+            "scale"
+        ],
+        "x25": [
+            "scale"
+        ]
+    },
+    "target_info": [],
+    "n_features": 25,
+    "is_sample_weighted": false,
+    "is_fairness_applied": false,
+    "n_classes": 2
+}

@@ -1,0 +1,14 @@
+if (x19 <= 0.002) and (x6 <= 0.024) and (x20 <= 0.002) then class: 1 (proba: 96.97%) | based on 33 samples
+
+if (x19 > 0.002) and (x9 <= 0.0) and (x15 <= 0.013) then class: 0 (proba: 100.0%) | based on 24 samples
+
+if (x19 <= 0.002) and (x6 <= 0.024) and (x20 > 0.002) then class: 1 (proba: 64.29%) | based on 14 samples
+
+if (x19 <= 0.002) and (x6 > 0.024) and (x5 <= 0.0) then class: 0 (proba: 100.0%) | based on 6 samples
+
+if (x19 > 0.002) and (x9 > 0.0) then class: 1 (proba: 100.0%) | based on 2 samples
+
+if (x19 <= 0.002) and (x6 > 0.024) and (x5 > 0.0) then class: 1 (proba: 100.0%) | based on 2 samples
+
+if (x19 > 0.002) and (x9 <= 0.0) and (x15 > 0.013) then class: 1 (proba: 100.0%) | based on 1 samples
+
